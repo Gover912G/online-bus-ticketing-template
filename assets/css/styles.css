@@ -16,6 +16,7 @@ body {
     position: relative;
     margin: 0;
     scroll-behavior: smooth;
+    background-color: rgb(228, 216, 216);
     /* overflow: hidden; */
     /* background-color: rgb(207, 238, 167); */
 }
@@ -427,7 +428,56 @@ ul{
 }
 
 
-
+/* sign up */
+#form
+{
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    font-size: 12px;
+}
+#form h1{
+    color: #0f2027;
+    text-align: center;
+}
+#form button{
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: #fff;
+    background-color: rgb(41,57,194);
+    border: none;
+    border-radius: 5px;
+}.input-control{
+    display: flex;
+    flex-direction: column;
+}
+.input-control input
+{
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+}
+.input-control input:focus
+{
+    outline: 0;
+}
+.input-control.success input{
+    border-color: #09c372;
+}
+.input-control.error input{
+    border-color: #ff3860;
+}
+.input-control .error{
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
 
 
 
