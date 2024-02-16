@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- css -->
+    <link rel="stylesheet" href="dash.css" />
+    <!-- material icons link -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <aside>
+        <div class="top">
+          <div class="logo">
+            <img src="../assets/images/favicon-32x32.png" alt="" />
+            <h2>ondaa</h2>
+          </div>
+          <div class="close" id="close-btn">
+            <span class="material-symbols-outlined"> close </span>
+          </div>
+        </div>
+        <div class="sidebar">
+          <a href="#">
+            <span class="material-symbols-outlined"> grid_view </span>
+            <h3>Dashboard</h3>
+          </a>
+          <a href="#" class="active">
+            <span class="material-symbols-outlined"> groups </span>
+            <h3>All Tickets</h3>
+          </a>
+          <a href="#">
+            <span class="material-symbols-outlined"> qr_code_scanner </span>
+            <h3>Scan Ticket</h3>
+          </a>
+          <a href="#">
+            <span class="material-symbols-outlined"> route </span>
+            <h3>Routes</h3>
+          </a>
+          <a href="#">
+            <span class="material-symbols-outlined"> settings </span>
+            <h3>Settings</h3>
+          </a>
+        </div>
+      </aside>
+
+      <!-- END OF SIDEBAR -->
+      <main>
+        <h1>Dashboard</h1>
+        <div class="date">
+          <input type="date" />
+        </div>
+        <div class="insights">
+          <div class="on-board">
+            <span class="material-symbols-outlined"> groups </span>
+            <div class="middle">
+              <div class="left">
+                <h3>Onboard Passangers</h3>
+                <h1>20</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>81%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">Last 24 hours</small>
+          </div>
+          <!-- End of onboard -->
+
+          <div class="amount">
+            <span class="material-symbols-outlined"> payments </span>
+            <div class="middle">
+              <div class="left">
+                <h3>Total Amount</h3>
+                <h1>ksh5820</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>81%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">Last 24 hours</small>
+          </div>
+        </div>
+        <!-- END OF INSIGHT SECTION -->
+
+        <div class="all-tickets">
+          <h2>All Tickets</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Username</th>
+                <th>Ticket Number</th>
+                <th>Start</th>
+                <th>Stop</th>
+                <th>Amount</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Governor</td>
+                <td>123-456-789</td>
+                <td>Meru</td>
+                <td>Maua</td>
+                <td>ksh250</td>
+                <td class="primary"><a href="#">Details</a></td>
+              </tr>
+              <tr>
+                <td>Governor</td>
+                <td>123-456-789</td>
+                <td>Meru</td>
+                <td>Maua</td>
+                <td>ksh250</td>
+                <td class="primary"><a href="#">Details</a></td>
+              </tr>
+              <tr>
+                <td>Governor</td>
+                <td>123-456-789</td>
+                <td>Meru</td>
+                <td>Maua</td>
+                <td>ksh250</td>
+                <td class="primary"><a href="#">Details</a></td>
+              </tr>
+              <tr>
+                <td>Governor</td>
+                <td>123-456-789</td>
+                <td>Meru</td>
+                <td>Maua</td>
+                <td>ksh250</td>
+                <td class="primary"><a href="#">Details</a></td>
+              </tr>
+              <tr>
+                <td>Governor</td>
+                <td>123-456-789</td>
+                <td>Meru</td>
+                <td>Maua</td>
+                <td>ksh250</td>
+                <td class="primary"><a href="#">Details</a></td>
+              </tr>
+              <tr>
+                <td>Governor</td>
+                <td>123-456-789</td>
+                <td>Meru</td>
+                <td>Maua</td>
+                <td>ksh250</td>
+                <td class="primary"><a href="#">Details</a></td>
+              </tr>
+              <tr>
+                <td>Governor</td>
+                <td>123-456-789</td>
+                <td>Meru</td>
+                <td>Maua</td>
+                <td>ksh250</td>
+                <td class="primary"><a href="#">Details</a></td>
+              </tr>
+              <tr>
+                <td>Governor</td>
+                <td>123-456-789</td>
+                <td>Meru</td>
+                <td>Maua</td>
+                <td>ksh250</td>
+                <td class="primary"><a href="#">Details</a></td>
+              </tr>
+              <tr>
+                <td>Governor</td>
+                <td>123-456-789</td>
+                <td>Meru</td>
+                <td>Maua</td>
+                <td>ksh250</td>
+                <td class="primary"><a href="#">Details</a></td>
+              </tr>
+            </tbody>
+          </table>
+          <a href="#">Show all</a>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

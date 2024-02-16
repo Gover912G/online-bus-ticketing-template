@@ -39,7 +39,10 @@ body {
     margin: 0 20px;
     font-size: 34;
     color: rgb(0, 110, 255);
-
+    display: flex;
+    text-transform: uppercase;
+    /* color: #110f00; */
+    
 }
 
 .navigation {
@@ -48,6 +51,7 @@ body {
     align-items: center;
 
 }
+
 
 .nav-list {
     display: flex;
