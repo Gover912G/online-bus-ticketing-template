@@ -358,9 +358,7 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
-ul{
 
-}
 .footer
 {
     background-color: #546080;
@@ -428,6 +426,26 @@ ul{
 }
 
 
+/* Ticket Section */
+.ticket{
+    padding: 20px;
+}
+.card-body.ticket{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e4e094;
+    /* background: transparent; */
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    box-shadow: inset -5px 5px 5px rgb(248, 232, 5);
+}
+#qrcode{
+    margin: auto;
+
+}
+
+
 /* sign up */
 #form
 {
@@ -483,9 +501,15 @@ ul{
 
 
 /* Login page */
+.login-container{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .wrapper
 {
-    width: 300px;
+    width: 400px;
     background: #fff;
     text-align: center;
     border-radius: 5px;
